@@ -16,7 +16,12 @@ const Contact: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               {/* Placeholder links */}
-              <a href="#" className="p-2 bg-slate-800 rounded-full hover:bg-primary transition-colors">
+              <a 
+                href="https://github.com/hu1234545" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 bg-slate-800 rounded-full hover:bg-primary transition-colors"
+              >
                 <Github size={20} />
               </a>
               <a href="#" className="p-2 bg-slate-800 rounded-full hover:bg-primary transition-colors">
