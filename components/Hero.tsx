@@ -31,9 +31,10 @@ const Hero: React.FC = () => {
               >
                 查看项目
               </a>
-              <button 
+              <a 
+                href="/resume_hubuxing.pdf"
+                download="胡步兴-嵌入式软件工程师-简历.pdf"
                 className="px-8 py-3 bg-white text-gray-700 border border-gray-300 rounded-lg font-semibold hover:bg-gray-50 transition-all flex items-center justify-center gap-2"
-                onClick={() => window.print()}
               >
                 <Download size={18} />
                 保存简历
