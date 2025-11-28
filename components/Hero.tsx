@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
               >
                 <Download size={18} />
                 保存简历
-              
+              </a>
             </div>
           </div>
           
