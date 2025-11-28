@@ -52,9 +52,9 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-slate-200 rounded-full translate-x-4 -translate-y-4"></div>
               {/* 你可以把这里的图片链接换成你自己的头像或照片URL */}
               <img 
-                src="https://raw.githubusercontent.com/hu1234545/mypj/main/src/assets/avatar.jpg" 
-                alt="胡步兴" 
-                className="relative w-full h-full object-cover rounded-full border-4 border-white shadow-xl"
+                 src="https://picsum.photos/400/400" 
+                 alt="Hu Buxing" 
+                 className="relative w-full h-full object-cover rounded-full border-4 border-white shadow-xl"
               />
             </div>
             <div className="absolute top-0 right-0 md:right-10 bg-white p-4 rounded-xl shadow-lg hidden md:block animate-bounce" style={{ animationDuration: '3s' }}>
